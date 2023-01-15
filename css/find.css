@@ -1,0 +1,73 @@
+.find-icons__img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.find-icons__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.find-icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.recomended-friends {
+    margin: 25px 0;
+    border-top: var(--main-border);
+    border-bottom: var(--main-border);
+    padding: 25px 0;
+}
+
+.recomended-friends__title,
+.open-movie__title {
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+.recomended-friends__avatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+}
+
+.recomended-friends__friend {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.recomended-friends__name {
+    margin-left: 10px;
+    font-weight: bolder;
+}
+
+.open-movie__information {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.open-movie__information__img {
+    width: 120px;
+    height: 80px;
+    border-radius: 20px;
+}
+
+.open-movie__information__title {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 17px;
+}
+
+.fa-star {
+    color: rgb(255, 255, 91);
+}
